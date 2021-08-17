@@ -131,6 +131,11 @@ header .container
     justify-content: center;
 }
 
+.left
+{
+    transform: translate(-5%);
+}
+
 .big-title
 {
     font-size: 1.2rem;
@@ -158,6 +163,24 @@ header .container
 {
     width: 123%;
     transform: translate(5%, 15px);
+}
+
+.toggle-btn
+{
+    display: inline-block;
+    border: none;
+    background: var(--darkTwo);
+    color: var(--background-color);
+    outline: none;
+    cursor: pointer;
+    height: 39px;
+    width: 39px;
+    border-radius: 50%;
+}
+
+.toggle-btn i:last-child
+{
+    display: none;
 }
 
 
