@@ -50,7 +50,7 @@ a
 .container
 {
     position: relative;
-    max-width: 81rem;
+    max-width: 94rem;
     width: 100%;
     margin: 0 auto;
     padding: 0 3rem;
@@ -157,7 +157,7 @@ header .container
 .person
 {
     width: 123%;
-    transform: translate(15%, 25px);
+    transform: translate(5%, 15px);
 }
 
 
